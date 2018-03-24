@@ -16,7 +16,7 @@
   {
    "name": "deployments",
    "description": "",
-   "type": "DeploymentsCollection"
+   "type": "DeploymentCollection"
   }
  ],
  "environment": [
