@@ -11,6 +11,6 @@ imports
 
 dependencies
   .add('message', 'twilio:Message')
-  .add('deployments', 'DeploymentCollection')
+  .add('deployments', 'zeit:DeploymentCollection')
 
 schema.type('Root')

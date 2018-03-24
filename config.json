@@ -16,7 +16,7 @@
   {
    "name": "deployments",
    "description": "",
-   "type": "DeploymentCollection"
+   "type": "zeit:DeploymentCollection"
   }
  ],
  "environment": [
