@@ -30,12 +30,7 @@
   "types": [
    {
     "name": "Root",
-    "fields": [
-     {
-      "name": "deployments",
-      "type": "zeit:DeploymentCollection"
-     }
-    ],
+    "fields": [],
     "computedFields": [],
     "actions": [],
     "events": []

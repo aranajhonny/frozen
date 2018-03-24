@@ -12,4 +12,3 @@ dependencies
   .add('deployments', 'zeit:DeploymentCollection')
 
 schema.type('Root')
- .field('deployments', 'zeit:DeploymentCollection')
