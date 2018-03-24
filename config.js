@@ -1,7 +1,5 @@
 const { schema, imports, dependencies, environment, expressions, endpoints } = program;
 
-program.name = "frozen"
-
 environment
   .add('uid', 'A string with the unique deployment ID.')
 
@@ -14,3 +12,4 @@ dependencies
   .add('deployments', 'zeit:DeploymentCollection')
 
 schema.type('Root')
+ .field('deployments', 'zeit:DeploymentCollection')

@@ -30,7 +30,12 @@
   "types": [
    {
     "name": "Root",
-    "fields": [],
+    "fields": [
+     {
+      "name": "deployments",
+      "type": "zeit:DeploymentCollection"
+     }
+    ],
     "computedFields": [],
     "actions": [],
     "events": []
@@ -39,6 +44,5 @@
  },
  "expressions": [],
  "database": [],
- "isDriver": false,
- "name": "frozen"
+ "isDriver": false
 }
