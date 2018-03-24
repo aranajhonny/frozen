@@ -39,5 +39,6 @@
  },
  "expressions": [],
  "database": [],
- "isDriver": false
+ "isDriver": false,
+ "name": "frozen"
 }
