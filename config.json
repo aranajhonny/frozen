@@ -1,0 +1,43 @@
+{
+ "imports": [
+  {
+   "program": "zeit"
+  },
+  {
+   "program": "twilio"
+  }
+ ],
+ "dependencies": [
+  {
+   "name": "message",
+   "description": "",
+   "type": "twilio:Message"
+  },
+  {
+   "name": "deployments",
+   "description": "",
+   "type": "DeploymentsCollection"
+  }
+ ],
+ "environment": [
+  {
+   "name": "uid",
+   "description": "A string with the unique deployment ID."
+  }
+ ],
+ "endpoints": [],
+ "schema": {
+  "types": [
+   {
+    "name": "Root",
+    "fields": [],
+    "computedFields": [],
+    "actions": [],
+    "events": []
+   }
+  ]
+ },
+ "expressions": [],
+ "database": [],
+ "isDriver": false
+}
