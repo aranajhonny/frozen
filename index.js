@@ -1,14 +1,11 @@
-const { root } = program.refs
+const { root, deployments, message } = program.refs
+const { uid } = process.env
 
 export async function init() {
-  // Called when the program is run
-}
-
-export async function update() {
-  // Called when the program is updated from a previous version
+  return program.setTimer('check', 0, 10)
 }
 
 export async function timer({ key }) {
-  // Called every time a timer fires
+  const state = await deployments.one({ uid: uid }).query('{ state }')
+  console.log(state)
 }
-
