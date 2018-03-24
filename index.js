@@ -3,9 +3,9 @@ const { uid } = process.env
 
 export async function init() {
 	await root.set({
-		deployments: deployments,
+		deployments: {},
 	})
-	return program.setTimer('check', 0, 10)
+	return program.setTimer('check', 0, 100)
 }
 
 export async function timer({ key }) {
