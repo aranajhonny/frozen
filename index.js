@@ -1,4 +1,4 @@
-const { root, deployments, message } = program.refs
+const { root, deployment, message } = program.refs
 
 export async function init() {
 	return program.setTimer('check', 0, 50)
