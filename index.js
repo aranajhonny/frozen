@@ -1,10 +1,18 @@
 const { root, deployment, message } = program.refs
+const { FROM, TO } = process.env
 
 export async function init() {
 	return program.setTimer('check', 0, 50)
 }
 
 export async function timer({ key }) {
-	const state = await deployment.query('{ state }')
-	console.log(state)
+	const { state, host } = await deployment.query('{ state host }')
+	if (state === 'FROZEN') {
+		console.log()
+		await message.sendSms({
+			from: FROM,
+			to: TO,
+			body: `The deployment ${host} has passed in a ${state} state.`,
+		})
+	}
 }

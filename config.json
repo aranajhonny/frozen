@@ -19,7 +19,16 @@
    "type": "zeit:Deployment"
   }
  ],
- "environment": [],
+ "environment": [
+  {
+   "name": "FROM",
+   "description": "From Phone Number"
+  },
+  {
+   "name": "TO",
+   "description": "To Phone Number"
+  }
+ ],
  "endpoints": [],
  "schema": {
   "types": [
