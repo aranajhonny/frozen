@@ -14,17 +14,12 @@
    "type": "twilio:Message"
   },
   {
-   "name": "deployments",
+   "name": "deployment",
    "description": "",
-   "type": "zeit:Root"
+   "type": "zeit:Deployment"
   }
  ],
- "environment": [
-  {
-   "name": "uid",
-   "description": "A string with the unique deployment ID."
-  }
- ],
+ "environment": [],
  "endpoints": [],
  "schema": {
   "types": [
