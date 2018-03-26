@@ -11,7 +11,7 @@
   {
    "name": "message",
    "description": "",
-   "type": "twilio:Message"
+   "type": "twilio:MessageCollection"
   },
   {
    "name": "deployment",
