@@ -8,7 +8,6 @@ export async function init() {
 export async function timer({ key }) {
 	const { state, host } = await deployment.query('{ state host }')
 	if (state === 'FROZEN') {
-		console.log()
 		await messages.sendSms({
 			from: FROM,
 			to: TO,
