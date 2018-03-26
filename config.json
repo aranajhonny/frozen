@@ -9,9 +9,9 @@
  ],
  "dependencies": [
   {
-   "name": "message",
+   "name": "messages",
    "description": "",
-   "type": "twilio:MessageCollection"
+   "type": "twilio:MessagesCollection"
   },
   {
    "name": "deployment",

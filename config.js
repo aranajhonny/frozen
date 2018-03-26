@@ -9,7 +9,7 @@ imports
   .add('twilio')
 
 dependencies
-  .add('messages', 'twilio:MessageCollection')
+  .add('messages', 'twilio:MessagesCollection')
   .add('deployment', 'zeit:Deployment')
 
 schema.type('Root')
